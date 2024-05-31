@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Me Gusta</title>
+    <link rel="stylesheet" href="megusta.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <h2>Your Feed</h2>
+    <main>
+        <div class="izquierda">
+            <div class="perfil">
+                <div class="iz-cabeza">
+                <img src="user-circle.png">
+                <a href="#">Add an avatar</a>
+                <p>James Doe</p>
+                </div>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="perfil">
+                <div class="datos-per">
+                    <h3>Neil M</h3>
+                    <div class="container-like">
+                        <p id="perfil-1">9</p>
+                        <P>like(s)</P>
+                    </div>
+                    <button onclick="aumentarLikes(this)" id="btn-perfil-1" class="btn">Like</button>
+                </div>
+                <div class="comentario">
+                    <p>I just set up thisnnew discord bot, let me know what you all think.<a href="#">link</a></p>
+                </div>
+            </div>
+            
+            
+            <div class="perfil">
+                    <div class="datos-per">
+                        <h3>Nichole K</h3>
+                        <div class="container-like">
+                            <p id="perfil-2">12</p>
+                            <P>like(s)</P>
+                        </div>
+                        <button onclick="aumentarLikes(this)" id="btn-perfil-2" class="btn">Like</button>
+                    </div>
+                    <div class="comentario">
+                        <p>Just finished my<a href="#">netx comic </a>,check it out.</p>
+                    </div>
+            </div>
+                
+            
+            
+            <div class="perfil">
+                    <div class="datos-per">
+                        <h3>Jim R</h3>
+                        <div class="container-like">
+                            <p id="perfil-3">9</p>
+                            <P>like(s)</P>
+                        </div>
+                        <button onclick="aumentarLikes(this)" id="btn-perfil-3" class="btn">Like</button>
+                    </div>
+                    <div class="comentario">
+                        <p>I can t stop listening to the<a href="#">new album</a>Who else is liking it?</p>
+                    </div>
+            </div>
+                
+            
+        </div>
+    </main>
+    <script src="./megusta.js"></script>
+</body>
+
+</html>
